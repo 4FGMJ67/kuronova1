@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KuroNova</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.postimg.cc/qqVtJqLL/IMG-20250713-232230-820.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      backdrop-filter: brightness(0.7);
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      display: inline-block;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p.bio {
+      font-style: italic;
+      margin-bottom: 25px;
+      font-size: 1.2em;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #111;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .links a:hover {
+      background-color: #5e17eb;
+    }
+    .icon {
+      margin-right: 8px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>𝑲𝒖𝒓𝒐𝑵𝒐𝒗𝒂</h1>
+    <p class="bio">"A nova in the dark — quiet, bright, unforgettable."</p>
+    <div class="links">
+      <a href="https://t.me/Kuronovax" target="_blank"><i class="fab fa-telegram icon"></i>Telegram</a>
+      <a href="https://instagram.com/0r0xo" target="_blank"><i class="fab fa-instagram icon"></i>Instagram</a>
+      <a href="https://www.tiktok.com/@kuronova5" target="_blank"><i class="fab fa-tiktok icon"></i>TikTok</a>
+    </div>
+  </div>
+</body>
+</html>
